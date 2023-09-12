@@ -19,8 +19,17 @@
       "type": "string"
     },
     "Permalink": {
-      "type": "string",
-      "unique": true
+      "type": "uid"
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
