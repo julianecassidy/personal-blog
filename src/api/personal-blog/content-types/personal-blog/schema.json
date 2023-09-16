@@ -22,14 +22,19 @@
       "type": "uid"
     },
     "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Canonical": {
+      "type": "string",
+      "required": false
     }
   }
 }
